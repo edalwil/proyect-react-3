@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: cursive;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+      background-color:#05292E;
+      color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* encabezado */
+
+.header {
+      display: flex;
+      justify-content: center;
+      background-image:url("/src/image/image 3.png");
+      height: 90px;
+      background-repeat: no-repeat;
+      background-size:cover;
+      align-items: center;
+      background-position: 45% 33%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header img {
+      width: 100px;
+      height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-id {
+      margin-top: 10px;
+      text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* local information */
+
+
+
+.cointainer-status {
+      position: absolute;
+      width: 130px;
+      background-color: #062226 ;
+      border-radius: 50px;
+
+}
+
+.locationInfo {
+      padding-top: 10px;
+      background-color: rgba(0, 0, 0, 0.712);
+      text-align: center;
+      margin-top: 10px;
+      color: white;
+}
+
+.locationInfo div + div {
+      padding: 20px 0;
+      display: flex;
+      justify-content:space-around;
+}
+
+/* tarjetas de personajes  */
+
+.container-character {
+      justify-content: center;
+      display: flex;
+}
+
+.container-character-card {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+.card-character{
+      margin: 10px;
+      background-color: #062226;
+      width: 300px;
+      height: 470px;
+}
+.container-principal img {
+      width: 300px;
+      height: 280px;
+}
+
+.container-principal h5 {
+      padding-top: 10px;
+}
+
+.container-principal h3, h5, p {
+      padding-left: 10px;
 }
