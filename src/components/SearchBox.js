@@ -13,9 +13,9 @@ const SearchBox = ({setLocation}) => {
       }
 
       return (
-            <div>
+            <div className='container-input'>
                   <input type="text" onChange={e => setSearch(e.target.value)} value={search}/>
-                  <button onClick={searchId}>search</button>
+                  <button onClick={searchId}><i className="fa-solid fa-magnifying-glass"></i></button>
             </div>
       );
 };

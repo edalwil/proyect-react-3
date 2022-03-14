@@ -29,9 +29,28 @@ body {
       height: 50px;
 }
 
-.search-id {
-      margin-top: 10px;
+/* input */
+
+input {
+      background-color:#062226;
+      border-radius: 20px;
+      color: white;
+      padding: 2px;
+}
+
+button{
       text-align: center;
+      border-radius: 20px;
+      padding: 2px;
+}
+
+.fa-solid {
+      width: 20px;;
+}
+
+.container-input {
+      text-align: center;
+      margin-top: 10px;
 }
 
 /* local information */
@@ -40,7 +59,7 @@ body {
       position: absolute;
       width: 130px;
       background-color: #062226 ;
-      border-radius: 50px;
+      border-radius: 40px 50px 50px 1px;;
       display: flex;
       justify-content: space-around;
 }
@@ -65,7 +84,8 @@ body {
       padding-top: 10px;
       background-color: rgba(0, 0, 0, 0.712);
       text-align: center;
-      margin-top: 10px;
+      margin: 10px;
+      border-radius: 10px;
 
 }
 
@@ -92,16 +112,40 @@ body {
       background-color: #062226;
       width: 300px;
       height: 470px;
+      box-shadow: 10px 5px 5px black;
+      border-radius: 10px;
 }
 .container-principal img {
       width: 300px;
       height: 280px;
+      border-radius: 10px 10px 1px 1px;
+      box-shadow: 5px 1px 50px rgba(8, 8, 8, 0.445);
 }
 
-.container-principal h5 {
+.container-principal p {
       padding-top: 10px;
 }
 
 .container-principal h3, h5, p {
       padding-left: 10px;
 }
+
+@media screen and (min-width: 600px) {
+      .header img {
+            width: 200px;
+            height: 100px;
+      }
+      .header {
+            height: 140px;
+      }
+    }
+
+    @media screen and (min-width: 900px) {
+      .header img {
+            width: 200px;
+            height: 100px;
+      }
+      .header {
+            height: 180px;
+      }
+    }

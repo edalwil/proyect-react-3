@@ -38,12 +38,9 @@ const ResidentInfo = ({characterUrl}) => {
                   <div className='container-principal'>
                         <img src={character?.image} alt="" />
                         <h3>{character?.name}</h3>
-                        <h5>raza</h5>
-                        <p>{character?.species}</p>
-                        <h5>origen</h5>
-                        <p>{character?.origin?.name}</p>
-                        <h5>aparecion de episodios</h5>
-                        <p>{character?.episode?.length}</p>
+                        <p><b>raza: </b>{character?.species}</p>
+                        <p><b>origen: </b>{character?.origin?.name}</p>
+                        <p><b>aparecion de episodios: </b>{character?.episode?.length}</p>
                   </div>
                   </div>
             </div>

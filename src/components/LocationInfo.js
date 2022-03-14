@@ -21,9 +21,9 @@ const LocationInfo = () => {
                               <div className='header'>
                                     <img src="https://i.ibb.co/601qgjb/image-2.png" alt="" />
                               </div>
-                              <div className='search-id'>
+                              <>
                                     <SearchBox setLocation={setLocation}/>
-                              </div>
+                              </>
                         </div>
                         <div className='locationInfo'>
                               <div>
