@@ -10,7 +10,7 @@ const ResidentInfo = ({characterUrl}) => {
             .then(res =>{ 
                   setCharacter(res.data)  
             }   )
-      }, []);
+      }, [characterUrl]);
 
     
       return (
