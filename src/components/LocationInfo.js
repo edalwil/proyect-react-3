@@ -32,7 +32,7 @@ const LocationInfo = () => {
                               <div>
                                     <p><b>Type: </b>{location?.type}</p>
                                     <p><b>Dimension: </b>{location?.dimension}</p>
-                                    <p><b>Popilation: </b>{location?.residents.length}</p>
+                                    <p><b>Popilation: </b>{location?.residents?.length}</p>
                               </div>
                         </div>
                         <div className='container-character'>

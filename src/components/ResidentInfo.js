@@ -34,7 +34,6 @@ const ResidentInfo = ({characterUrl}) => {
                                           </>
                                     ))  
                               } 
-                           
                         </div>
                   <div className='container-principal'>
                         <img src={character?.image} alt="" />
