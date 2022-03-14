@@ -36,14 +36,29 @@ body {
 
 /* local information */
 
-
-
 .cointainer-status {
       position: absolute;
       width: 130px;
       background-color: #062226 ;
       border-radius: 50px;
+      display: flex;
+      justify-content: space-around;
+}
 
+.bg-red {
+      margin: 5px;
+      background-color: red;
+      width: 15px;
+      height: 15px;
+      border-radius: 20px;
+}
+
+.bg-green {
+      margin: 5px;
+      background-color:green;
+      width: 15px;
+      height: 15px;
+      border-radius: 20px;
 }
 
 .locationInfo {
@@ -51,7 +66,7 @@ body {
       background-color: rgba(0, 0, 0, 0.712);
       text-align: center;
       margin-top: 10px;
-      color: white;
+
 }
 
 .locationInfo div + div {

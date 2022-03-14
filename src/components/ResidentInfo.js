@@ -12,7 +12,7 @@ const ResidentInfo = ({characterUrl}) => {
             }   )
       }, []);
 
-      console.log(character);
+    
       return (
             <div className='card-character'>
                   <div className='container'>
@@ -21,10 +21,12 @@ const ResidentInfo = ({characterUrl}) => {
                                     character?.status === "Dead" ? (
                                           <>
                                                 <p>Muerto</p>
+                                                <p className='bg-red'></p>
                                           </>
-                                    ) : (character?.status === " Alive" ? (
+                                    ) : (character?.status === "Alive" ? (
                                           <>
                                                 <p>Vivo</p>
+                                                <p className='bg-green'></p>
                                           </>
                                     ) : (
                                           <>
