@@ -59,7 +59,7 @@ button{
       position: absolute;
       width: 130px;
       background-color: #062226 ;
-      border-radius: 40px 50px 50px 1px;;
+      border-radius: 30px 50px 50px 1px;;
       display: flex;
       justify-content: space-around;
 }
@@ -143,7 +143,7 @@ button{
     @media screen and (min-width: 900px) {
       .header img {
             width: 200px;
-            height: 100px;
+            height: 100px
       }
       .header {
             height: 180px;
